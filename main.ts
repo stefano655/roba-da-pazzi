@@ -1,6 +1,3 @@
-input.onGesture(Gesture.LogoUp, function () {
-    basic.showString("So impegnat vattin!")
-})
 input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
         # # # . .
@@ -29,4 +26,7 @@ input.onGesture(Gesture.Shake, function () {
 })
 input.onButtonPressed(Button.B, function () {
     music.play(music.stringPlayable("E B C5 A B G A F ", 120), music.PlaybackMode.UntilDone)
+})
+input.onGesture(Gesture.ScreenUp, function () {
+    basic.showString("So impegnat vattin!")
 })

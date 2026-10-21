@@ -1,4 +1,19 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_gesture_event" id="ZjrUxS`BFXia^e~_wvM7" x="132" y="-256"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_print_message" id="M1{Nc{6.Y~jXI{jhJosn"><value name="text"><shadow type="text" id="g4mp5;g88D:-)+j[]|)#"><field name="TEXT">Non disturbare</field></shadow></value></block></statement></block><block type="device_button_event" id="VTkn~{P*][S_jyaq@Ke(" x="129" y="-125"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="{cdDsdW:0o]sYq#Oe,h."><field name="LEDS">`
+        # # # . . 
+        # . . # . 
+        # # # # . 
+        # . . # . 
+        # # # . .
+        `</field><next><block type="device_show_leds" id="v{$0jpsN%*,v~)R-oX2L"><field name="LEDS">`
+        # # # # . 
+        # . . . # 
+        # # # # # 
+        # . # . . 
+        # . . # .
+        `</field><next><block type="device_show_leds" id="xSioIKj_)*n-j4cO[$Wm"><field name="LEDS">`
+        . # # . . 
+        # . . # . 
+        # . . # . 
+        # . . # . 
+        . # # . .
+        `</field></block></next></block></next></block></statement></block></xml>
